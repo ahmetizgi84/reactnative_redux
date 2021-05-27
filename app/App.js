@@ -1,11 +1,19 @@
 import React from 'react'
-import { View, Text } from 'react-native'
+import { View } from 'react-native'
+import HomeScreen from './screens/HomeScreen'
+
+import configureStore from './redux/store'
+import { Provider } from 'react-redux'
+
+const store = configureStore();
 
 const App = () => {
   return (
-    <View>
-      <Text>Hello</Text>
-    </View>
+    <Provider store={store}>
+      <View style={{ flex: 1 }}>
+        <HomeScreen />
+      </View>
+    </Provider>
   )
 }
 
