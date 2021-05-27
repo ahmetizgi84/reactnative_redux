@@ -1,25 +1,17 @@
 ## Redux Global State Management & React Native
 
 ### Klasör yapısı
-app
-    |
-    |_ components
-    |
-    |_ redux
-            |
-            |_ actions
-                    |_ actions.js
-            |
-            |_ reducers
-                    |_reducers.js
-            |
-            |_ store.js
-            |
-            |_ types.js
-    |
-    |_ screens
-    |
-    |_ App.js
++ app
+    + components
+    + redux
+        + actions
+            + actions.js
+        + reducers
+            + reducers.js
+        + store.js
+        + types.js
+    + screens
+    + App.js
 
 ### types.js
 
